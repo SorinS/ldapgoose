@@ -6,8 +6,8 @@
 // or refused, and compared as Equal, EqualFold and AncestorOf compare.
 import std;
 import ldap from "..";
-import asn1 from "../../asn1goose.git";
-import bignum from "../../bigmongoose.git";
+import bignum from "SorinS/bigmongoose@v0.7.0";
+import asn1 from "SorinS/asn1goose@v0.7.0";
 import ldap.filter;
 import ldap.dn;
 import ldap.conn;
